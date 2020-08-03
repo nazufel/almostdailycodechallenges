@@ -1,0 +1,9 @@
+version: '3.3' 
+  
+  services:
+    golang:
+      image: golang:1.14.6-alpine3.12
+      volumes:
+        - ./src:/go/src/app
+        
+
